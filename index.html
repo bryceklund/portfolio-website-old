@@ -9,23 +9,38 @@
     <title>Bryce Eklund</title>
 </head>
 <body>
-    <header class='header'>
-        <h1>BRYCE EKLUND</h1>
-        <h2>Full stack developer,<br>musician,<br>IT professional</h2>
-    </header>
     <main>
+        <header class='header' role="banner">
+            <h1>BRYCE EKLUND</h1>
+            <h2>Full stack developer,<br>musician,<br>IT professional</h2>
+        </header>
         <section class='portfolio-links' id='portfolio-links'>
-                <a href="https://www.linkedin.com/in/bryceklund" target="_blank">LinkedIn</a>
-                <a href="https://github.com/bryceklund/" target="_blank">GitHub</a>
-                <a href="mailto:bryce.eklund@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/bryceklund" target="_blank"><img src="pictures/linkedin.png" alt="linkedin logo"></a>
+                <a href="https://github.com/bryceklund/" target="_blank"><img src="pictures/github.png" alt="github logo"></a>
+                <a href="mailto:bryce.eklund@gmail.com"><img alt="email icon" src="pictures/email.png"></a>
         </section>
         <section class="bio">
             <p>Hi, I'm Bryce. I live for creative problem solving, technical building, and aesthetics. Having an idea is a mere fraction of the puzzle — elegant drafting, streamlined implementation, and peer-checked revision are all core elements of a magnificent project. These concepts extend far beyond the reaches of coding; they affect my art and my life.  I love all parts of the stack, but with my experience as a producer and an RMM administrator, I have a particular fixation with the back end.</p>
         </section>
-        <a href="#project1">v PROJECTS v</a>
+        <div class="projects-link-container">
+            <a href="#project1" class="projects-link">v <span class="projects-text">PROJECTS</span> v</a>
+        </div>
     </main>
+    <section class='project' id="project1">
+            <h2 class="project-header">Ableton Quiz</h2>
+            <p class="project-description">A small quiz web app made with jQuery, JavaScript, HTML, and CSS. The application introduces the quiz, provides feedback on correct/incorect answers, shows users their score, and provides the option to start over at the end.</p>
+            <div class="app-links">
+                <a href="https://bryceklund.github.io/quiz-app/" target="_blank">App</a>
+                <a href="https://github.com/bryceklund/quiz-app" target="_blank">Repository</a>
+            </div>
+            <div class="tech-icons">
+                <img src="pictures/html+css+js.png" alt="HTML, CSS, and JS">
+                <img src="pictures/jquery-icon-png-28.jpg" alt="jQuery">
+            </div>
+            <div class='project1-bg'></div>
+    </section>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="script.js" type="text/javascript"></script>
 <script src="jquery.localScroll-2.0.0/jquery.localScroll.js" type="text/javascript"></script>
+<script src="script.js" type="text/javascript"></script>
 </body>
 </html>
