@@ -169,7 +169,7 @@ a {
 	}
 }
 
-@media screen and (min-height: 530px) {
+@media screen and (min-height: 690px) {
     .tech-icons {
         margin-top: 10%;
     }
@@ -202,6 +202,7 @@ a {
     
     .bio {
         font-size:  25px;
+        margin-bottom: 10%;
     }
 
     .projects-link-container {
@@ -232,11 +233,11 @@ a {
     }
 
     .bio {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .projects-link-container {
-        margin-top: 15%;
+        margin-top: 0;
     }
 
     .project-description {
@@ -272,5 +273,28 @@ a {
 
     .project1-bg {
         height: 55vh;
+    }
+}
+
+@media screen and (max-height: 500) {
+    .project-description {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-height: 890px) {
+    .bio {
+        font-size: 20px;
+    }
+
+    .projects-link-container {
+        margin-top: 5%;
+    }
+    .tech-icons {
+        margin-top: 0;
+    }
+
+    .app-links {
+        margin-top: 0;
     }
 }
