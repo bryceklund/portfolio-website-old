@@ -294,14 +294,19 @@ a {
 @media screen and (max-height: 500px) {
 
     .project-description {
-        font-size: 20px;
+        font-size: 17px;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     .project-header {
         margin-bottom: 10px;
         padding-top: 10px;
         font-size: 25px;
+    }
+    
+    .tech-icons {
+        ma
     }
 
 }
