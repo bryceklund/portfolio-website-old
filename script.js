@@ -6,8 +6,8 @@
     });
 }*/
 
-function windowH(viewport) {
-    if (viewport.matches) {
+function windowH(viewportW, viewportH) {
+    if (viewportW.matches && viewportH.matches) {
         var wH = $(window).height();
         $('main').css({height: wH});
     } else {
@@ -29,8 +29,9 @@ $('.projects-link').click(function(e) {
  }
 
  
-let viewport = window.matchMedia("(min-width: 700px)")
+let viewportW = window.matchMedia("(min-width: 700px)")
+let viewportH = window.matchMedia("(min-height: 500px)")
 let viewportWidth = $(window).width();
 
- windowH(viewport);
- titleFormat(viewport);
+ windowH(viewportW, viewportH);
+ titleFormat(viewportW);
