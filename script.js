@@ -18,7 +18,7 @@ function windowH(viewportW, viewportH) {
 $('.projects-link').click(function(e) {
     e.preventDefault();
     $('body, html').animate({
-        scrollTop: $('#project1').offset().top
+        scrollTop: $('#project2').offset().top
     }, 1000);
 });
 
